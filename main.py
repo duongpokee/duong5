@@ -412,14 +412,14 @@ def choice_down_proxies():
         sel_pr = input("[?] Proxy version [1/2]: ")
         if choice_mode == "proxy":
             if sel_pr == "1":
-                urlproxy = "https://api.proxyscrape.com/?request=displayproxies&proxytype=http&timeout=10000&country=all&ssl=yes&anonymity=all"
+                urlproxy = "https://raw.githubusercontent.com/duongpokee/adjhasjlfhk/main/asdasfahttp"
             else:
                 urlproxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
         else:
             if sel_pr == "1":
-                urlproxy = "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5&timeout=10000&country=all&ssl=yes&anonymity=all"
+                urlproxy = "https://raw.githubusercontent.com/duongpokee/adjhasjlfhk/main/orhndvasock4.txt"
             else:
-                urlproxy = "https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&timeout=10000&country=all&ssl=yes&anonymity=all"
+                urlproxy = "https://raw.githubusercontent.com/duongpokee/adjhasjlfhk/main/orhndvasock5.txt"
         proxyget()
     else:
         print("[!] Đã Chọn Không Nhận Danh Sách " +str(filenam2)+ " [!]")
